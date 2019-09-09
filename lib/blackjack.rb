@@ -29,35 +29,35 @@ return total
 end
 
 
-def hit?(total)
-# inputs=('a'..'z')
- prompt_user
- user_input = get_user_input
-case user_input
-when "h"
-  total += deal_card
-when "s"
-  total
-when "k"
-  invalid_command
-  
-end
-total
-end
-
 # def hit?(total)
-# inputs=['h','s']
-# prompt_user
-# user_input = get_user_input
-# if user_input == "h"
-# total += deal_card
-# elsif user_input=="s"
-#  total
-# else
+# # inputs=('a'..'z')
+#  prompt_user
+#  user_input = get_user_input
+# case user_input
+# when "h"
+#   total += deal_card
+# when "s"
+#   total
+# when "k"
 #   invalid_command
+#
 # end
 # total
 # end
+
+def hit?(total)
+inputs=['h','s']
+prompt_user
+user_input = get_user_input
+if user_input == "h"
+total += deal_card
+elsif user_input=="s"
+ total
+else
+  invalid_command
+end
+total
+end
 
 # def hit?(total)
 # inputs=['h','s']
