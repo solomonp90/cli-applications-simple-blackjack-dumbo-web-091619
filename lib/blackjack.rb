@@ -30,7 +30,6 @@ end
 
 
 def hit?(total)
-# inputs=('a'..'z')
  prompt_user
  user_input = get_user_input
 case user_input
