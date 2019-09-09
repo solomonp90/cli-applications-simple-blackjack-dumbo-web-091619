@@ -40,7 +40,7 @@ when "s"
   total
 when "k"
   invalid_command
-  prompt_user
+  prompt_user(total)
 end
 total
 end
