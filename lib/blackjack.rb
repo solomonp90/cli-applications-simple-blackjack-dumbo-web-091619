@@ -59,15 +59,3 @@ def runner
   display_card_total(total)
 end_game(total)
 end
-
-
-
-# def hit?(total)
-# inputs=['h','s']
-# prompt_user
-# get_user_input
-# if get_user_input == "h"
-# total += deal_card
-# end
-# total
-# end
