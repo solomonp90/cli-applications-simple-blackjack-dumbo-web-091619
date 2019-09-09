@@ -44,55 +44,6 @@ end
 total
 end
 
-# def hit?(total)
-# inputs=['h','s']
-# prompt_user
-# user_input = get_user_input
-# if user_input == "h"
-# total += deal_card
-# elsif user_input=="s"
-#  total
-# else
-#   invalid_command
-# end
-# total
-# end
-
-# def hit?(total)
-# inputs=['h','s']
-# prompt_user
-# user_input = get_user_input
-# if user_input == "h"
-# total += deal_card
-# elsif user_input=="s"
-#  total
-# else
-#   invalid_command
-# end
-# total
-# end
-
-# if user_input == "h"
-#     card_total += deal_card  # code hit? here
-#   end
-#   card_total
-# end	end
-
-
-# prompt_user
-# get_user_input
-# display_card_total
-# deal_card
-
-# deal_card
-
-# prompt_user
-# get_user_input
-# string
-
-# arr=["s","h"]
-# case arr
-# when s
 def invalid_command
   puts "Please enter a valid command"
 end
