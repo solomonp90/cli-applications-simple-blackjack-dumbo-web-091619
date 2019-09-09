@@ -40,9 +40,9 @@ when "s"
   total
 when "k"
   invalid_command
-
+  prompt_user
 end
-hit?(total)
+total
 end
 
 # def hit?(total)
