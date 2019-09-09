@@ -40,7 +40,7 @@ when "s"
   total
 when "k"
   invalid_command
-  
+  hit?(total)
 end
 total
 end
