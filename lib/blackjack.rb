@@ -41,7 +41,6 @@ when "s"
 when "k"
   invalid_command
   prompt_user
-  user_input(total)
 end
 total
 end
